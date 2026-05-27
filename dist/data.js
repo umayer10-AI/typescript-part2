@@ -5,7 +5,15 @@ class A {
     constructor(name) {
         this.name = name;
     }
+    displayName() {
+        console.log("Lalalalalala");
+    }
+    getStudent(v) {
+        return v;
+    }
 }
 const a = new A("Umayer");
-console.log(a.name);
+a.displayName();
+console.log(a);
+console.log(a.getStudent("Hola"));
 //# sourceMappingURL=data.js.map
