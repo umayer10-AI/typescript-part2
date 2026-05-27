@@ -61,7 +61,7 @@ let d2: A | B = {
 }
 
 const c = (v: A | B) => {
-    if(v as A){
+    if((v as A).name !== undefined){
         console.log("name -> city")
     }
     else{

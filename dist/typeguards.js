@@ -20,7 +20,7 @@ let d2 = {
     email: "umayer@yahoo.com"
 };
 const c = (v) => {
-    if (v) {
+    if (v.name !== undefined) {
         console.log("name -> city");
     }
     else {
