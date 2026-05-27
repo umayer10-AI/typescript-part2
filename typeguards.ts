@@ -42,30 +42,49 @@
 // }
 // c(b)
 
-interface A {
-    name: string,
-    city: string
-}
-interface B {
-    id: number,
-    email: string
+// interface A {
+//     name: string,
+//     city: string
+// }
+// interface B {
+//     id: number,
+//     email: string
+// }
+
+// let d1: A | B = {
+//     name: "Umayer",
+//     city: "Fatullah"
+// }
+// let d2: A | B = {
+//     id: 100,
+//     email: "umayer@yahoo.com"
+// }
+
+// const c = (v: A | B) => {
+//     if((v as A).name !== undefined){
+//         console.log("name -> city")
+//     }
+//     else{
+//         console.log("id -> email")
+//     }
+// }
+// c(d1)
+
+
+interface Dog {
+    bark: () => void
 }
 
-let d1: A | B = {
-    name: "Umayer",
-    city: "Fatullah"
-}
-let d2: A | B = {
-    id: 100,
-    email: "umayer@yahoo.com"
+interface Cat {
+    meow: () => void
 }
 
-const c = (v: A | B) => {
-    if((v as A).name !== undefined){
-        console.log("name -> city")
+const sound = (animal: Dog | Cat) => {
+
+    if("bark" in animal){
+        animal.bark()
     }
     else{
-        console.log("id -> email")
+        animal.meow()
     }
 }
-c(d1)

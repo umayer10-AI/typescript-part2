@@ -11,21 +11,12 @@
 //     console.log("Number")
 // }
 Object.defineProperty(exports, "__esModule", { value: true });
-let d1 = {
-    name: "Umayer",
-    city: "Fatullah"
-};
-let d2 = {
-    id: 100,
-    email: "umayer@yahoo.com"
-};
-const c = (v) => {
-    if (v.name !== undefined) {
-        console.log("name -> city");
+const sound = (animal) => {
+    if ("bark" in animal) {
+        animal.bark();
     }
     else {
-        console.log("id -> email");
+        animal.meow();
     }
 };
-c(d1);
 //# sourceMappingURL=typeguards.js.map
