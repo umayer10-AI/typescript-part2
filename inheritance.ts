@@ -1,4 +1,4 @@
-class S {
+export default class S {
     login(name?: string, password?: string): string {
         if(name && password){
             return "Student Login"

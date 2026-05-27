@@ -1,1 +1,1 @@
-{"version":3,"file":"inheritance.d.ts","sourceRoot":"","sources":["../inheritance.ts"],"names":[],"mappings":""}
+{"version":3,"file":"inheritance.d.ts","sourceRoot":"","sources":["../inheritance.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,OAAO,OAAO,CAAC;IAClB,KAAK,CAAC,IAAI,CAAC,EAAE,MAAM,EAAE,QAAQ,CAAC,EAAE,MAAM,GAAG,MAAM;IAQ/C,MAAM,CAAC,KAAK,EAAE,MAAM,GAAG,MAAM;CAQhC"}

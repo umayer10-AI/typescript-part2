@@ -18,6 +18,7 @@ class S {
         }
     }
 }
+exports.default = S;
 class SS extends S {
 }
 const a = new S();
