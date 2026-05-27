@@ -16,4 +16,4 @@ b = "name"
 b = "age"
 b = "free"
 
-let c:keyof typeof a = "name"
+let c:keyof typeof a = "age"

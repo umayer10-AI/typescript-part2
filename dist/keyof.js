@@ -10,5 +10,5 @@ let b;
 b = "name";
 b = "age";
 b = "free";
-let c = "name";
+let c = "age";
 //# sourceMappingURL=keyof.js.map
