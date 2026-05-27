@@ -42,18 +42,24 @@
 
 class P {
     public isCart = false
-    constructor(public name: string, private price:number, public id: number){}
+    constructor(public name: string, private price:number, protected id: number){}
 
     getData() {
-        return this.price
+        return this.id
     }
 
     buyData() {
         return this.getData()
     }
 }
+class A extends P {
+    getUser(){
+        console.log(this.id,"hello")
+    }
+}
 const a = new P("umayer", 10000, 10)
-// a.name = "Ahmad"
+const b = new A("umayer", 10000, 10)
+// a.id = 1
 
-// console.log(a.getData())
+b.getUser()
 console.log(a.buyData())
