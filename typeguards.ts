@@ -11,12 +11,33 @@
 // }
 
 
-const a = (v: string | number) => {
-    if(typeof v === "number"){
-        console.log("Number")
+// const a = (v: string | number) => {
+//     if(typeof v === "number"){
+//         console.log("Number")
+//     }
+//     else{
+//         console.log("String")
+//     }
+// }
+// a("10")
+
+
+class A {
+
+}
+const a = new A()
+
+class B {
+
+}
+const b = new B()
+
+const c = (v: A | B) => {
+    if(v instanceof A){
+        console.log("Order")
     }
     else{
-        console.log("String")
+        console.log("Product")
     }
 }
-a("10")
+c(b)
