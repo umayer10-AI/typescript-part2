@@ -6,4 +6,9 @@ let a = {
     free: true,
 };
 console.log(a);
+let b;
+b = "name";
+b = "age";
+b = "free";
+let c = "name";
 //# sourceMappingURL=keyof.js.map

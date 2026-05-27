@@ -9,3 +9,11 @@ let a: P = {
     free: true,
 }
 console.log(a)
+
+type B = keyof P
+let b: B;
+b = "name"
+b = "age"
+b = "free"
+
+let c:keyof typeof a = "name"
