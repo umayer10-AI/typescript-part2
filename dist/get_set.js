@@ -6,11 +6,20 @@ class A {
     get name() {
         return "MR. " + this._name;
     }
-    get email() {
-        return "MR. " + this._email;
+    set email(v) {
+        this._email = this._email + v;
+    }
+    get lol() {
+        return "Hello";
+    }
+    set nameUser(v) {
+        this._name = this._name + " " + v;
     }
 }
 const a = new A();
 console.log(a.name);
-console.log(a.email);
+a.email = ".com";
+console.log(a._email);
+a.nameUser = "Ahmad";
+console.log(a._name);
 //# sourceMappingURL=get_set.js.map
