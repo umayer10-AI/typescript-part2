@@ -18,7 +18,11 @@ class S {
         }
     }
 }
+class SS extends S {
+}
 const a = new S();
+const b = new SS();
 console.log(a.result(24));
 console.log(a.login());
+console.log(b.login("Umayer", "12345678"));
 //# sourceMappingURL=inheritance.js.map
