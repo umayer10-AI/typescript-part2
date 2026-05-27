@@ -1,1 +1,2 @@
-console.log("hello")
+let h = document.querySelector('h1')
+console.log(h?.textContent)
