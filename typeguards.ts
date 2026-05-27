@@ -22,22 +22,50 @@
 // a("10")
 
 
-class A {
+// class A {
 
+// }
+// const a = new A()
+
+// class B {
+
+// }
+// const b = new B()
+
+// const c = (v: A | B) => {
+//     if(v instanceof A){
+//         console.log("Order")
+//     }
+//     else{
+//         console.log("Product")
+//     }
+// }
+// c(b)
+
+interface A {
+    name: string,
+    city: string
 }
-const a = new A()
-
-class B {
-
+interface B {
+    id: number,
+    email: string
 }
-const b = new B()
+
+let d1: A | B = {
+    name: "Umayer",
+    city: "Fatullah"
+}
+let d2: A | B = {
+    id: 100,
+    email: "umayer@yahoo.com"
+}
 
 const c = (v: A | B) => {
-    if(v instanceof A){
-        console.log("Order")
+    if(v as A){
+        console.log("name -> city")
     }
     else{
-        console.log("Product")
+        console.log("id -> email")
     }
 }
-c(b)
+c(d1)

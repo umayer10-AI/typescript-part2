@@ -11,28 +11,21 @@
 //     console.log("Number")
 // }
 Object.defineProperty(exports, "__esModule", { value: true });
-// const a = (v: string | number) => {
-//     if(typeof v === "number"){
-//         console.log("Number")
-//     }
-//     else{
-//         console.log("String")
-//     }
-// }
-// a("10")
-class A {
-}
-const a = new A();
-class B {
-}
-const b = new B();
+let d1 = {
+    name: "Umayer",
+    city: "Fatullah"
+};
+let d2 = {
+    id: 100,
+    email: "umayer@yahoo.com"
+};
 const c = (v) => {
-    if (v instanceof A) {
-        console.log("Order");
+    if (v) {
+        console.log("name -> city");
     }
     else {
-        console.log("Product");
+        console.log("id -> email");
     }
 };
-c(b);
+c(d1);
 //# sourceMappingURL=typeguards.js.map
