@@ -1,1 +1,1 @@
-{"version":3,"file":"typeguards.js","sourceRoot":"","sources":["../typeguards.ts"],"names":[],"mappings":""}
+{"version":3,"file":"typeguards.js","sourceRoot":"","sources":["../typeguards.ts"],"names":[],"mappings":";;AAAA,IAAI,CAAC,GAA6B,QAAQ,CAAA;AAC1C,WAAW;AACX,IAAG,OAAO,CAAC,KAAG,SAAS,EAAC,CAAC;IACrB,OAAO,CAAC,GAAG,CAAC,SAAS,CAAC,CAAA;AAC1B,CAAC;KACI,IAAG,OAAO,CAAC,KAAG,QAAQ,EAAC,CAAC;IACzB,OAAO,CAAC,GAAG,CAAC,QAAQ,CAAC,CAAA;AACzB,CAAC;KACG,CAAC;IACD,OAAO,CAAC,GAAG,CAAC,QAAQ,CAAC,CAAA;AACzB,CAAC"}
